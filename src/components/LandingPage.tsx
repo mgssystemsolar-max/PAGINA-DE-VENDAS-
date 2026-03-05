@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactForm';
 
 export default function LandingPage() {
   return (
@@ -50,6 +51,14 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Contact Section */}
+      <section className="py-20 bg-black relative">
+        <div className="absolute inset-0 bg-gradient-to-t from-indigo-900/10 to-transparent pointer-events-none" />
+        <div className="container mx-auto px-6 relative z-10">
+          <ContactForm />
         </div>
       </section>
     </div>
