@@ -1,0 +1,5 @@
+{
+  "name": "Hybrid Landing Page",
+  "description": "A landing page project with hybrid routing architecture for cloud and production environments.",
+  "requestFramePermissions": []
+}
